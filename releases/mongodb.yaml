@@ -21,6 +21,7 @@ spec:
     persistence:
       enabled: false
     securityContext:
+      runAsNonRoot: false
       enabled: true
       fsGroup: 0
       runAsUser: 0
